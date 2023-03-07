@@ -1,0 +1,142 @@
+body {
+font-family: "Helvetica Neue";
+text-align: center;
+color: white;
+background-color: black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar {
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 10px;
+font-size: 18px;
+}
+
+#navpages a {
+    color: greenyellow;
+}
+
+#navpages a:hover {
+    color: purple;
+}
+
+#marquee {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topsection {
+    background-color: rgb(80, 80, 80);
+    border-style: solid;
+    border-color: yellowgreen;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+    
+}
+
+
+#submitsuggestion {
+    color: white;
+}
+
+#submitsuggestion:hover {
+    color: greenyellow;
+}
+
+
+h1 {
+color: white;
+}
+
+
+h2 {
+color: greenyellow;
+font-size: 35px;
+}
+
+
+p {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+input {
+width: 30%;
+height: 25px;
+text-align: center;
+}
+
+button {
+width: 20%;
+height: 35px;
+border:yellowgreen 2px solid;
+font-weight: bold;
+background-color: white;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
+
+
+.card-seen img {
+border-radius: 40px 5px 40px 5px;
+margin-top: 8px;
+margin-left: 2px;
+margin-right: 2px;
+height: 275px;
+width: 500px;
+caret-color: blueviolet;
+}
+
+.card-seen img:hover {
+    border: solid greenyellow 2px;
+    cursor:hand;
+}
+
+
+.card-upcoming img {
+border-radius: 40px 5px 40px 5px;
+margin-top: 8px;
+margin-left: 2px;
+margin-right: 2px;
+height: 275px;
+width: 500px;
+}
+
+.card-upcoming img:hover {
+    border: solid greenyellow 2px;
+}
+
+a {
+    color: purple;
+    font-size: 22px;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+background-color: yellowgreen;
+}
+
+
+#footer nav {
+display: block;
+font-size: 25px;
+padding: 10px;
+margin: 0px;
+}
+
