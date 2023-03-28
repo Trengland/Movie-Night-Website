@@ -93,7 +93,8 @@ body {
 
 
 #header {
-    background-image: linear-gradient(to bottom, #ff2403, #ffea8d);
+    background-image: linear-gradient(to bottom, #af2401, #ffea8d);
+    text-shadow: 2px 8px 10px rgba(245, 124, 69, 0.712);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
