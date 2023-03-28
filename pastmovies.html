@@ -9,18 +9,23 @@
 </head>
 
 <body>
-    <header id=top class="navbar">
-        <nav id="navpages">
-          <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;  
-          <a href="index.html">Upcoming Movies</a> &nbsp; &nbsp; &nbsp;
-          <a href="#section">Past Movies</a> &nbsp; &nbsp; &nbsp;
-          <a href="#suggestions">Suggest a Movie!</a> &nbsp; &nbsp; &nbsp;
-        </nav>
+  <marquee href="index.html" id="marquee" behavior="slide" direction="down" scrollamount="20"><img src="./assets\images\movie night image.jpg"></marquee>
+    
+  <header class="navbar">
+      <nav id="navpages">
+        <a id="one" href="index.html">Home</a> &nbsp; &nbsp; &nbsp; 
+        <a id="two" href="upcomingmovies.html">Up Next!</a> &nbsp; &nbsp; &nbsp;
+        <a id="three" href="pastmovies.html">From The Vault</a> &nbsp; &nbsp; &nbsp;
+        <a id="four" href="moviequotes.html">Best Movie Quotes</a> &nbsp; &nbsp; &nbsp;
+        <a id="five" href="trendingmovies.html">Trending Movies</a> &nbsp; &nbsp; &nbsp;
+        <a id="six" href="suggestions.html">Suggest a Movie</a> &nbsp; &nbsp; &nbsp;
+    
+    </nav>
     </header>
-<marquee id="marquee" behavior="slide" direction="down" scrollamount="20"><img src="./assets\images\movie night image.jpg"></marquee>
 <br>
-<h2 id="section">Past Movies</h2>
-  
+<br>
+<br>
+<h2 id="section">Movies From The Vault!</h2>
 <div class="card-seen">
   <a href="https://www.youtube.com/watch?v=Ur83i6_BjbE" target="blank">
   <img src="https://img-www.tf-cdn.com/movie/2/love-basketball-2000.jpeg?_v=20200721220457&fit=crop&crop=faces%20entropy&w=1200&h=630"></a>
@@ -49,15 +54,29 @@
   <a href="https://youtu.be/kVrqfYjkTdQ" target="blank">
   <img src="https://deadline.com/wp-content/uploads/2021/02/MCDTITA_FE014.jpg"></a>
 <br>
+
 <div id="suggestions">
-  <h2>What Movie Do <u>YOU</u> Want To Add to The List?</h2>
+  <br>
+  <br>
+  <h2>What Movie Do You Want To Add to The List?</h2>
       <input></input> 
       <br> <br>
       <button type="button">Submit Your Suggestion</button>
   </div>
-  <br> <br>
-  <a href="#top">Back to Top</a>
+  <br><br>
+
+  <a id="backtotop" href="#marquee">Back to Top</a>
 </div>
 <br>
+
+<footer id="footer">
+  <p id="copywright"><br>Copywright @EnglandMovieNight</p>
+  <nav>
+    <a href="upcomingmovies.html">Upcoming Movies</a> &nbsp;
+    <a href="pastmovies.html">Past Movies</a> &nbsp;
+    <a href="suggestions.html">Suggest a Movie</a> &nbsp;
+    </nav>
+</footer>
+
 </body>
 </html>

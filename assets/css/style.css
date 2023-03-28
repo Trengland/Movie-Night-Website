@@ -1,47 +1,115 @@
 body {
-font-family: "Helvetica Neue";
-text-align: center;
-color: white;
-background-color: black;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .navbar {
-display: flex;
-justify-content: center;
-text-align: center;
-color: white;
-padding-top: 5px;
-padding-left: 5px;
-padding-right: 5px;
-padding-bottom: 10px;
-font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-size: 24px;
 }
 
-#navpages a {
-    color: greenyellow;
+
+#one {
+    color: #bd1e00;
 }
 
-#navpages a:hover {
-    color: purple;
+#one:hover {
+    color: #f04400;
 }
+
+#two {
+    color: #bd1e00;
+}
+
+#two:hover {
+    color: #f04400;
+}
+
+#three {
+    color: #bd1e00;
+}
+
+#three:hover {
+    color: #f04400;
+}
+
+#four {
+    color: #bd1e00;
+}
+
+#four:hover {
+    color: #f04400;
+}
+
+#five {
+    color: #bd1e00;
+}
+
+#five:hover {
+    color: #f04400;
+}
+
+#six {
+    color: #bd1e00;
+}
+
+#six:hover {
+    color: #f04400;
+}
+
 
 #marquee {
     display:flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height:100%;
+    padding: 3px;
 }
 
-#topsection {
-    background-color: rgb(80, 80, 80);
+
+/* #topsection {
+    background-color: rgb(51, 49, 49);
     border-style: solid;
     border-color: yellowgreen;
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 40px;
-    
+} */
+
+
+
+#header {
+    background-image: linear-gradient(to bottom, #ff2403, #ffea8d);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#topsection {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffea8d;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#paragraph {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
@@ -49,94 +117,112 @@ font-size: 18px;
     color: white;
 }
 
+
 #submitsuggestion:hover {
-    color: greenyellow;
+    color: #bd1e00;
 }
 
 
 h1 {
-color: white;
-}
-
-
-h2 {
-color: greenyellow;
-font-size: 35px;
-}
-
-
-p {
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-input {
-width: 30%;
-height: 25px;
-text-align: center;
-}
-
-button {
-width: 20%;
-height: 35px;
-border:yellowgreen 2px solid;
-font-weight: bold;
-background-color: white;
-}
-
-button:hover {
-    background-color: purple;
     color: white;
 }
 
 
+#section  {
+    color: #fea056;
+    font-size: 35px;
+}
+
+/* #section:hover {
+    color: white;
+} */
+
+#upcoming {
+    color: #fea056;
+    font-size: 35px;
+}
+
+#upcoming:hover {
+    color: white;
+}
+
+
+input {
+    width: 30%;
+    height: 25px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    width: 20%;
+    height: 44px;
+    font-weight: bold;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #bd1e00;
+    color: white;
+    font-size: 20px;
+}
+
+
 .card-seen img {
-border-radius: 40px 5px 40px 5px;
-margin-top: 8px;
-margin-left: 2px;
-margin-right: 2px;
-height: 275px;
-width: 500px;
-caret-color: blueviolet;
+    border-radius: 40px 5px 40px 5px;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 275px;
+    width: 500px;
 }
 
 .card-seen img:hover {
-    border: solid greenyellow 2px;
+    border: solid #ff2403 2px;
     cursor:hand;
 }
 
 
 .card-upcoming img {
-border-radius: 40px 5px 40px 5px;
-margin-top: 8px;
-margin-left: 2px;
-margin-right: 2px;
-height: 275px;
-width: 500px;
+    border-radius: 40px 5px 40px 5px;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 275px;
+    width: 500px;
 }
 
 .card-upcoming img:hover {
-    border: solid greenyellow 2px;
+    border: solid #ff2403 2px;
 }
 
-a {
-    color: purple;
-    font-size: 22px;
+#backtotop {
+    color: #feffd2;
+    font-size: 18px;
+}
+
+#backtotop:hover {
+    color: #e3470c;
 }
 
 a:hover {
-    color: white;
+    color: #bd1e00;
 }
 
 footer {
-background-color: yellowgreen;
+    background-color: #ffea8d;
+    padding-bottom: 10px;
 }
 
+#copywright {
+    color: black;
+}
 
 #footer nav {
-display: block;
-font-size: 25px;
-padding: 10px;
-margin: 0px;
+    display: block;
+    color:#bd1e00;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
 }
 
